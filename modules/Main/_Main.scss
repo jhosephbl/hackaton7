@@ -119,3 +119,19 @@
         width: 100%;
     }
 }
+
+.Popular{
+    border-bottom: 1px solid darkgray;
+
+    &-Text{
+        font-size: $m;
+        
+    }
+}
+
+.All{
+
+    &-Text{
+        font-size: $m;
+    }
+}

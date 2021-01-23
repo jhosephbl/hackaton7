@@ -569,4 +569,16 @@ body {
 .Main-Art2-Card-Img {
   width: 100%;
 }
+
+.Popular {
+  border-bottom: 1px solid darkgray;
+}
+
+.Popular-Text {
+  font-size: 12px;
+}
+
+.All-Text {
+  font-size: 12px;
+}
 /*# sourceMappingURL=styles.css.map */
