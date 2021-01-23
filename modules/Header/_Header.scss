@@ -1,7 +1,7 @@
 .Header{
     background: $fifth-Color;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     &-Logo{
@@ -11,11 +11,13 @@
 
     &-Menu{
         width: 300px;
+        background: $fifth-Color;
     }
 
     &-ListItem{
         display: flex;
         justify-content: space-between;
+        border: none;
     }
 
     &-Item{

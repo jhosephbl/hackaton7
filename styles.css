@@ -362,8 +362,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -376,6 +377,7 @@ body {
 
 .Header-Menu {
   width: 300px;
+  background: #ffffff;
 }
 
 .Header-ListItem {
@@ -385,6 +387,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: none;
 }
 
 .Header-Item {
@@ -427,5 +430,16 @@ body {
   color: #ffffff;
   width: 400px;
   text-align: center;
+}
+
+.Search-Container {
+  padding: 20px;
+}
+
+.Search-Input {
+  height: 50px;
+  background: #eeeeee;
+  border-radius: 2px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

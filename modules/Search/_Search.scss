@@ -1,0 +1,17 @@
+.Search{
+    
+
+    &-Container{
+        padding: 20px;
+        
+    }
+
+    &-Input{
+        height: 50px;
+        
+        background: rgb(238, 238, 238);
+        border-radius: 2px;
+        font-size: $s;
+    }
+}
+
