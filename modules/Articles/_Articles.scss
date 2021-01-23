@@ -1,0 +1,61 @@
+.Article{
+    
+    &-Container{
+
+    }
+
+    &-Card{
+        height: 250px;
+        // background: darkgray;
+
+        &-Img{
+            height: 100%;
+
+        }
+    }
+
+    &-Info{
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+
+        &-Title{
+            margin-top: 0;
+           
+
+        }
+
+        &-Text{
+
+        }
+
+        &-Social{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0;
+
+            &-Personal{
+
+                &-Name{
+                    font-size: $l;
+                }
+
+                &-Date{
+                    font-size: $m;
+                }
+            }
+
+            &-Icons img{
+                width: 20px;
+
+            }
+        }
+
+        }
+
+   
+    
+}
