@@ -1,0 +1,121 @@
+.Main{
+  
+    &-Title-Text{
+        font-size: $l;
+
+    }
+}
+
+.Main-Art1{
+    
+    height: 400px;
+    // background: chocolate;
+    
+
+    &-Info{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+    }
+
+    &-Title{
+        font-size: $xxl;
+    }
+
+    &-Text{
+
+    }
+
+    &-Social{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &-Personal{
+        
+
+        &-Name{
+            font-size: $l;
+
+        }
+
+        &-Date{
+            font-size: $m;
+        }
+
+    }
+
+    &-Icons img{
+        width: 20px;
+    }
+
+    & img{
+        height: 100%;
+    }
+}
+
+
+
+.Main-Art2-Card{
+    
+    height: 400px;
+    // background: chocolate;
+    display: flex;
+    flex-direction: column;
+    
+
+    &-Info{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+    }
+
+    &-Title{
+        font-size: $l;
+    }
+
+    &-Text{
+        font-size: $m
+    }
+
+    &-Social{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &-Personal{
+        
+
+        &-Name{
+            font-size: $l;
+
+        }
+
+        &-Date{
+            font-size: $m;
+        }
+
+    }
+
+    &-Icons img{
+        width: 20px;
+    }
+
+    & img{
+        height: 100%;
+    }
+
+    &-Img{
+        width: 100%;
+    }
+}

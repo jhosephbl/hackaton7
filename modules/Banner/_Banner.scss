@@ -1,19 +1,19 @@
 .Banner{
     width: 100%;
-    height: 150px;
-    background: $fourth-Color;
+    height: 250px;
+    background: $second-Color;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     &-Title{
-        font-size: $xxl;
+        font-size: $xxxl;
         color: $fifth-Color;
     }
 
     &-Text{
-        font-size: $m;
+        font-size: $l;
         color: $fifth-Color;
         width: 400px;
         text-align: center;

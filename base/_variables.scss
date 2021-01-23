@@ -3,11 +3,11 @@
 $first-Color: #1F3F68;
 $second-Color: #356EAD;
 $thir-Color: #1c1c1c;
-$fourth-Color: #7cabe4;
+$fourth-Color: #9d9d9d;
 $fifth-Color: #ffffff;
 
 // TAMANIOS DE CUENTE
-
+$xxxl : 34px;
 $xxl : 24px;
 $xl : 20px;
 $l : 16px;
@@ -27,3 +27,11 @@ $s : 10px;
     font-weight: 800;
 }
 
+
+.name-color{
+    color: $second-Color;
+}
+
+.p-color{
+    color: $fourth-Color;
+}
