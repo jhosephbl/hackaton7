@@ -464,7 +464,7 @@ body {
 }
 
 .Main-Art1-Info {
-  height: 400px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -518,6 +518,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .Main-Art2-Card-Info {
