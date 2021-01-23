@@ -3,7 +3,7 @@
     
 
     &-Card{
-        height: 250px;
+        height: 200px;
         // background: darkgray;
 
         &-Img{
@@ -20,8 +20,13 @@
 
         &-Title{
             margin-top: 0;
+            font-size: $xl;
+            color: $first-Color;
            
 
+        }
+        &-Text{
+            font-size: $m;
         }
 
         

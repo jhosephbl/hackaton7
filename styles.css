@@ -589,7 +589,7 @@ body {
 }
 
 .Article-Card {
-  height: 250px;
+  height: 200px;
 }
 
 .Article-Card-Img {
@@ -612,6 +612,12 @@ body {
 
 .Article-Info-Title {
   margin-top: 0;
+  font-size: 20px;
+  color: #1F3F68;
+}
+
+.Article-Info-Text {
+  font-size: 12px;
 }
 
 .Article-Info-Social {
