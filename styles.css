@@ -588,6 +588,10 @@ body {
   color: #1F3F68;
 }
 
+.old {
+  border-top: 1px solid #1c1c1c;
+}
+
 .Article-Card {
   height: 200px;
 }
@@ -643,5 +647,11 @@ body {
 
 .Article-Info-Social-Icons img {
   width: 20px;
+}
+
+.page-footer {
+  background-color: #356EAD;
+  margin-top: 50px;
+  border-radius: 0 80px 0 0;
 }
 /*# sourceMappingURL=styles.css.map */
