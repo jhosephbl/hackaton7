@@ -341,6 +341,18 @@ template {
   display: none;
 }
 
+.fw-l {
+  font-weight: 200;
+}
+
+.fw-r {
+  font-weight: 500;
+}
+
+.fw-b {
+  font-weight: 800;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -384,5 +396,36 @@ body {
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
+}
+
+.Banner {
+  width: 100%;
+  height: 150px;
+  background: #7cabe4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Banner-Title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.Banner-Text {
+  font-size: 12px;
+  color: #ffffff;
+  width: 400px;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
